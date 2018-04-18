@@ -24,3 +24,9 @@ slaughter
 slay
 
 On trouverai donc des EN en rapport avec un meurtre.
+
+Si EN avant mot dans la liste sans verbe BE alors meurtrier. Exemple : Jean kills Huguette
+Si EN avant mot dans la liste avec verbe BE alors victime.   Exemple : Huguette is killed by Jean
+
+Si EN après mot dans la liste sans verbe BE alors victime.
+Si EN après mot dans la liste avec verbe BE alors meurtrier. Voir exemple ci-dessus.
