@@ -1,0 +1,26 @@
+chercher dans toutes les phrases, les EN commençant par D
+Reconstituer les EN (nom de famille et prénom)
+
+	a la fin du parcours de la phrase, on regarde les différents EN trouvés et si il existe des EN avec des ID côte à côte, on les fusionne.
+
+	parcourir les EN :
+		enregistrer l'id 
+		parcourir d'autre EN
+			if ID1 == ID2+1 || ID2
+
+Puis lorsque on trouve une EN on enregistre la phrase
+
+On reparcours les phrases enregistrées 
+pour trouver les lemmes suivants :
+kill
+murder
+assassinate
+drown
+execute
+get
+poison
+massacre
+slaughter
+slay
+
+On trouverai donc des EN en rapport avec un meurtre.
